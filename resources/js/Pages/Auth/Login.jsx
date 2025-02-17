@@ -75,6 +75,9 @@ export default function Login({ status, canResetPassword }) {
               checked={data.remember}
               onChange={(e) => setData("remember", e.target.checked)}
             />
+            <span className="ms-2 text-sm text-gray-600 dark:text-gray-400">
+              Remember me
+            </span>
           </label>
         </div>
 
